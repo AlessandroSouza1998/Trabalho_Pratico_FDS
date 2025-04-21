@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho de Fundamentos de Desenvolvimento de Software</title>
+  <link rel="stylesheet" href="Estilo.css">
+</head>
+<body>
+  <!--1. Um título principal (<h1>) com seu nome.-->
+    <img class="Perfil" src="Imagem/Perfil.jpg">
+    <h1 class="nome"> Alessandro Almeida de Souza </h1>
+
+  <!--2. Um parágrafo (<p>) apresentando uma breve autobiografia-->
+    <p class="texto">Meu nome é Alessandro Almeida de Souza, tenho 27 anos e sou natural de Manaus. 
+       Atualmente, trabalho como Supervisor de Programação no Grupo Rede Amazônica. 
+       Sou apaixonado por tecnologia e estou sempre em busca de aprender mais, explorando novidades e inovações que possam 
+       fazer a diferença tanto na minha vida pessoal quanto profissional.</p>
+       <br>
+       <button class="botao-mensagem" onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+       <p id="mensagem" style="display: none;"></p>      
+       <br>
+  <!--3. Uma lista não ordenada (<ul>) com três hobbies ou atividades favoritas. -->
+  <!--4. Uma imagem (<img>) que represente um dos hobbies mencionados. --> 
+  <h2 class="texto1">Principais Hobbies</h2>
+
+  <ul class="hobbies">
+    <li>
+      Futebol<br>
+      <img class="imagem" src="Imagem/futebol.jpg">
+    </li>
+    <li>
+      Academia<br>
+      <img class="imagem" src="Imagem/academia.jpg">
+    </li>
+    <li>
+      Corrida<br>
+      <img class="imagem" src="Imagem/corrida.jpg">
+    </li>
+  </ul>
+
+<!--5. Uma tabela  <table> que contenha  o nome e a imagem de três países  que 
+gostaria de visitar. (tabela com 3 linhas x 2 colunas)-->
+<br>
+
+<table>
+  <h2 class="texto2">Países para visitar</h2>
+
+  <table class="tabela-viagem">
+    <tr>
+      <th>País</th>
+      <th>Bandeira</th>
+    </tr>
+    <tr>
+      <td>Estados Unidos</td>
+      <td><img class="paises" src="Imagem/Estado Unidos.jpg"></td>
+    </tr>
+    <tr>
+      <td>Portugal</td>
+      <td><img class="paises"  src="Imagem/Portugal.jpg"></td>
+    </tr>
+    <tr>
+      <td>Suíça</td>
+      <td><img  class="paises" src="Imagem/Suíça.jpg"></td>
+    </tr>
+  </table>
+  <br>
+<!--6.Um link (<a>) que leve para um site de interesse do aluno (exemplo: um site 
+de notícias, tecnologia ou entretenimento).-->
+
+<a class="link" href="https://www.tecmundo.com.br/">tecmundo</a>
+</body>
+ <!--Referencia do arquivo js-->
+ <script src="script.js"></script>
+</html>
